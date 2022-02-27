@@ -7,7 +7,6 @@ minutes = (duration - days * ( 60 * 60 * 24) - hours * ( 60 * 60) // 60)
 days = duration - days * (60 * 60 * 24) - hours * (60 * 60) - minutes * 60
 print( days, 'дн', hours, 'час', minutes, 'мин', seconds, 'сек')
 
-
 #2
 
 sum = 0
